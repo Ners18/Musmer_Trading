@@ -1,0 +1,33 @@
+.navStickTop{
+    z-index: 500;
+    position: fixed;
+    margin-top: -1rem;
+}
+
+.project-detail-grid-item div:nth-child(2) {
+    text-align: end;
+}
+
+@media screen and (min-width: 768px){
+.projects-item {
+    border-radius: 1.5rem;
+    top: 7rem;
+}
+.navbar-menu{
+    margin-top: -35px;
+}
+.navbar-right{
+    margin-top: 0 !important;
+}
+.contact-hero-content-grid {
+    grid-column-gap: 2rem;
+    grid-template-columns: 1fr 390px;
+}
+}
+
+@media screen and (min-width: 1440px){
+.contact-hero-content-grid {
+    grid-column-gap: 2rem;
+    grid-template-columns: 1fr 476px;
+}
+}
