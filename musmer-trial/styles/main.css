@@ -4549,7 +4549,7 @@ figcaption {
 }
 
 .badge.muted {
-    background-color: var(--main-color);
+    background-color: whitesmoke;
     border-color: transparent;
     color: whitesmoke;
 }
