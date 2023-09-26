@@ -7307,7 +7307,7 @@ figcaption {
     }
 
     .navbar-dropdown.mobile {
-        width: 250px;
+        width: 175px;
         position: absolute;
         right: -54px
     }
@@ -8627,7 +8627,7 @@ figcaption {
     }
 
     .navbar-dropdown.mobile {
-        right: -50px
+        right: -20px
     }
 
     .services-feautres-video-wrapper {
