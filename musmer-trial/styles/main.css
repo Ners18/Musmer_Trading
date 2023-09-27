@@ -4524,18 +4524,18 @@ figcaption {
 .badge {
     width: 40px;
     height: 40px;
-    border: 1px solid #e8e8e8;
+    /* border: 1px solid #e8e8e8; */
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     line-height: 100%;
-    transition: background-color .2s,border .2s;
+    /* transition: background-color .2s,border .2s; */
     display: flex
 }
 
-.badge:hover {
+/* .badge:hover {
     border-color: var(--main-color)
-}
+} */
 
 .badge.small {
     width: 26px;
@@ -4549,13 +4549,13 @@ figcaption {
 }
 
 .badge.muted {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     border-color: transparent;
     color: whitesmoke;
 }
 
 .badge.muted:hover {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     color: #191919;
     border-color: #191919;
     cursor: pointer;
@@ -7664,8 +7664,8 @@ figcaption {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
         margin-top: -28px;
-        margin-left: -100px;
-        padding-right: 14px
+        margin-left: -50px;
+        /* padding-right: 14px */
     }
 
     .projects-item {
